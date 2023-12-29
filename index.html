@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing page</title>
+    <!-- adding bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <!-- adding css -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- adding font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- google-font -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="title">
+
+    <!-- creating a nav bar -->
+    <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="index.html"><i class="fa fa-shopping-bag" aria-hidden="true"></i>SammyAppeals</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNavbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="collapseNavbar">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#testimonials">Testimonials</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#pricing">Pricing</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#features">Services</a>
+                </li>
+              
+
+            </ul>
+          </div>
+     
+
+
+
+    </nav>
+
+    <!-- This is the title  -->
+    
+        <div class="row title-text-carousel">
+            <div class="col-lg-6">   
+                 <h1 class="title-text">Your aesthetics is your confidence...</h1>
+                 <p class="sub-title">Shopping made easy. Get amazing deals and discounts from all our wears with affordable prices, durability in texture all from the comfort of your home. we exist to make your shopping experience stress-free. Begin shopping with DeeCruise today..</p>
+                 <a href="#guidelines"><button type="button" class="btn btn-danger btn-lg shop-button">Shop now <i class="fa fa-shopping-cart" aria-hidden="true"></i> </button></a>
+                 <div class="ratings">
+                    <!-- <img class="rating-image" src="https://w7.pngwing.com/pngs/908/280/png-transparent-graphy-smile-dentistry-smile-face-photography-people.png" alt="">
+                    <img class="rating-image" src="https://www.seekpng.com/png/detail/57-576498_man-face-png-happy-people-face-png.png" alt="">
+                    <img class="rating-image" src="https://w7.pngwing.com/pngs/420/550/png-transparent-orthodontics-dental-braces-dentistry-clear-aligners-american-association-of-orthodontists-child-child-people-dentistry-thumbnail.png " alt=""> -->
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star"></span>
+                 <span class="rating-text">Average rating of esteemed customers</span>
+                </div>
+                 </div>
+
+            <!-- carousel title -->
+            <div id="carousel-control" class="carousel slide col-lg-6" data-bs-ride="carousel">
+
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carousel-control" data-bs-slide-to="0" class="active carousel-button" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carousel-control" data-bs-slide-to="1" class="carousel-button" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carousel-control" data-bs-slide-to="2" class="carousel-button" aria-label="Slide 3"></button>
+                </div>
+          
+                <!-- first image -->
+                <div class="carousel-inner">
+          
+                  <div class="carousel-item active">
+                
+                    <img class="carousel-image w-100" src="shirts/blue-suit.jpg" width="300" height="500" alt="">
+                
+                  </div>
+          
+                  <!-- Second image -->
+                  <div class="carousel-item">
+                    
+                    <img class="carousel-image w-100" src="shirts/light-blue-jeans.jpg" width="300" height="500" alt="">
+                    
+                  </div>
+
+                  <!-- third image -->
+                  <div class="carousel-item">
+                    
+                    <img class="carousel-image w-100" src="shirts/prints.jpg" width="300" height="500" alt="">
+                    
+                  </div>
+            
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-control" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel-control" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+
+        </div>
+
+    </div>
+
+
+    </section>
+
+    <!-- Features -->
+
+  <section id="features">
+    <div class="row">
+    
+      
+      <div class="col-lg-4 col-md-6 feature-items">
+        <div class="card">
+        <img class="w-100" src="images/men-collection.jpg" width="400" height="400" alt="">
+        <h3>Men Wears.</h3>
+        <ul>
+            <li>durable and comfy</li>
+            <li>fitting for all physique types</li>
+            <li>classy and trendy</li>
+        </ul>
+      </div>
+    </div>
+
+    
+    
+      <div class="col-lg-4 col-md-6  feature-items">
+        <div class="card">
+        <img class="w-100" src="kids/kid-collection.jpg" width="400" height="400" alt="">
+        <h3>Kids Wears.</h3>
+        <ul>
+            <li>Adjustable fabrics</li>
+            <li>Smart and adorable cotton</li>
+            <li>classy and trendy</li>
+        </ul>
+      </div>
+    </div>
+    
+      <div class="col-lg-4 col-md-12 feature-items">
+        <div class="card">
+        <img class="w-100" src="foot wears/shoe-collection.jpg" width="400" height="400" alt="">
+        <h3>Foot Wears.</h3>
+        <ul>
+            <li>Matching for different clothes</li>
+            <li>durableand breathable leather</li>
+            <li>easy on the foot</li>
+        </ul>
+      </div>
+      </div>
+    
+      </div>
+    
+      </section>
+
+      <!-- adverts -->
+
+      <section id="adverts">
+        <div class="row ads-row">
+            <div class="col-lg-6 col-md-6">
+                <h1 class="ads-number">01</h1>
+                <h2>plain Shirts</h2>
+                <p class="ads-text">You definitely don't want to get dressed one day, head out and see a random dude putting on the exact design you thought only you could rock. that would be quite dissappointing for your frail heart wouldn't it. Our plain tee-shirts are the outfits for you. customizable personally only at your feel. one would have to be psychic before he could ever get your design replicated.</p>
+                <button type="button" class="btn btn-outline-danger btn-lg shop-button">click to see more! <i class="fa fa-shopping-cart" aria-hidden="true"></i> </button>
+            </div>
+            <div class="ads-image-right col-lg-6  col-md-6">
+                <img class="ads-image" src="https://i5.walmartimages.com/asr/00dfbd6f-e144-430e-8fac-651ef6d1d05c.0ee63ce03ebff4fb894195d0932d4d17.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" width="" height="" alt="plain-tee">
+            </div>
+            
+        </div>
+        <div class="row ads-row">
+            <div class="row">
+                <div class="ads-image-left col-lg-6  col-md-6">
+                    <img class="ads-image" src="https://images.meesho.com/images/products/44780107/bdgnd_512.jpg" width="" height="" alt="plain-tee">
+                </div>
+                <div class="col-lg-6  col-md-6">
+                    <h1 class="ads-number">02</h1>
+                    <h2>Customized Shirts</h2>
+                    <p class="ads-text">The big boys collection. Our desiger shirts ranges from casual wears, designed and customized t-shirts of high quality and trends, beach wears as well as vintage shirts. All come in different sizes for all unique and grosteque body types with fabrics of durable texture.</p>
+                    <button type="button" class="btn btn-outline-danger btn-lg shop-button">click to see more! <i class="fa fa-shopping-cart" aria-hidden="true"></i> </button>
+                </div>
+                
+                
+            </div>
+        </div>
+        <div class="row ads-row">
+            
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-6">
+                <h1 class="ads-number">03</h1>
+                <h2>Shorts</h2>
+                <p class="ads-text">Sometimes a full length trouser can be a bit restricting. maybe you just want to spice up your wardrobe with new trends of shorts or you are simply just obsessed with your legs. like i said, i totally  get it. Our shorts ranges from plains to combats. Feel comfy with a durable and adjustable allowance. </p>
+                <button type="button" class="btn btn-outline-danger btn-lg shop-button">click to see more! <i class="fa fa-shopping-cart" aria-hidden="true"></i> </button>
+            </div>
+            <div class="ads-image-right col-lg-6 col-md-6">
+                <img class="ads-image" src="https://my-test-11.slatic.net/p/d20c695c9e15cf8989070ffb55160230.jpg" width="" height="" alt="plain-tee">
+            </div>
+        </div>
+        <div class="row ads-row">
+          <div class="row">
+              <div class="ads-image-left col-lg-6 col-md-6">
+                  <img class="ads-image" src="https://media.istockphoto.com/photos/the-man-wears-shoes-tie-the-laces-on-the-shoes-mens-style-professions-picture-id685168074?k=20&m=685168074&s=612x612&w=0&h=1O0Va2u_0WWOvdXCaLAsCwebhman7ndM4HotgrXCb1s=" width="" height="" alt="plain-tee">
+              </div>
+              <div class="col-lg-6 col-md-6">
+                  <h1 class="ads-number">04</h1>
+                  <h2>Foot wears</h2>
+                  <p class="ads-text">Statistics show that your shoes are the first thing people notice when they look at you for the first time. Quite a debatable theory isn't it. But personally i'd say that you are never fully dressed without a good foot wear adorning your feet. Our foot wear collection ranges from solid palms, cooperate and loafer shoes down to the  sneakers. you cant afford to be dressed half-way can you.</p>
+                  <button type="button" class="btn btn-outline-danger btn-lg shop-button">click to see more! <i class="fa fa-shopping-cart" aria-hidden="true"></i> </button>
+              </div>
+              
+              
+          </div>
+      </div>
+
+      </section>
+
+      <!-- pricing section  -->
+      <section id="pricing">
+
+        <div class="row-card">
+
+
+        <div class="card-heading">
+          <h4 class="card-title">Plain T-shirts</h4>
+          <a href=""><p class="card-more">See all</p></a>
+        </div>
+
+<div class="row">
+               
+  <div class="col-lg-4">
+  <div class="card card-image-price">
+    <div class="row">
+      <div class="card-image col-lg-5">
+        <img class="pricing-image" src="data:image/jpeg;base64,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" alt=""></h3>
+      </div>
+      <div class="card-body col-lg-7">
+        <p>Men's plain Tee-shirt 5 in 1</p>
+        <h5>#11,500.00</h5>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<div class="col-lg-4">
+  <div class="card card-image-price">
+    <div class="row">
+      <div class="card-image col-lg-5">
+        <img class="pricing-image" src="data:image/jpeg;base64,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" alt="emerald gree"></h3>
+      </div>
+      <div class="card-body col-lg-7">
+        <p>Mens's Emerald plain Tee-shirt</p>
+        <h5>#2,500.00</h5>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<div class="col-lg-4">
+  <div class="card card-image-price">
+    <div class="row">
+    <div class="card-image col-lg-5">
+      <img class="pricing-image" src="data:image/jpeg;base64,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" alt="royal blue"></h3>
+    </div>
+    <div class="card-body col-lg-7">
+      <p>Royal blue Plain Tee-shirt</p>
+      <h5>#2,700.00</h5>
+    </div>
+
+  </div>
+
+  </div>
+</div>
+</div>
+</div>
+
+          <!-- Customized shirts  -->
+          <div class="row-card">
+            <div class="card-heading">
+              <h4 class="card-title">Shirts</h4>
+              <a href=""><p class="card-more">See all</p></a>
+            </div>
+  <div class="row">
+               
+    <div class="col-lg-4">
+    <div class="card card-image-price">
+      <div class="row">
+        <div class="card-image col-lg-5">
+          <img class="pricing-image" src="https://4.imimg.com/data4/MB/EM/MY-34141038/mens-trendy-shirts-500x500.jpg" alt=""></h3>
+        </div>
+        <div class="card-body col-lg-7">
+          <p>Praesent rhoncus aliquam arcu</p>
+          <h5>#xx,xxx</h5>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="col-lg-4">
+    <div class="card card-image-price">
+      <div class="row">
+        <div class="card-image col-lg-5">
+          <img class="pricing-image" src="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/99/776877/1.jpg?7538" alt=""></h3>
+        </div>
+        <div class="card-body col-lg-7">
+          <p>Praesent rhoncus aliquam arcu</p>
+          <h5>#xx,xxx</h5>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="col-lg-4">
+    <div class="card card-image-price">
+      <div class="row">
+      <div class="card-image col-lg-5">
+        <img class="pricing-image" src="https://m.media-amazon.com/images/I/41SlXVpgFlS.jpg" alt=""></h3>
+      </div>
+      <div class="card-body col-lg-7">
+        <p>Praesent rhoncus aliquam arcu</p>
+        <h5>#xx,xxx</h5>
+      </div>
+
+    </div>
+
+    </div>
+  </div>
+  </div>
+</div>
+
+          <!-- shorts  -->
+          <div class="row-card">
+            <div class="card-heading">
+              <h4 class="card-title">Shorts</h4>
+              <a href=""><p class="card-more">See all</p></a>
+            </div>
+  <div class="row">
+               
+    <div class="col-lg-4">
+    <div class="card card-image-price">
+      <div class="row">
+        <div class="card-image col-lg-5">
+          <img class="pricing-image" src="https://pyxis.nymag.com/v1/imgs/e04/46a/d17d2bb6221c18ea1503e051564234bea7.2x.rsquare.w600.jpg" alt=""></h3>
+        </div>
+        <div class="card-body col-lg-7">
+          <p>Praesent rhoncus aliquam arcu</p>
+          <h5>#xx,xxx</h5>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="col-lg-4">
+    <div class="card card-image-price">
+      <div class="row">
+        <div class="card-image col-lg-5">
+          <img class="pricing-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm5IrExKShf017Mf9OO2BZ533tCIu_zcHhFw&usqp=CAU" alt=""></h3>
+        </div>
+        <div class="card-body col-lg-7">
+          <p>Praesent rhoncus aliquam arcu</p>
+          <h5>#xx,xxx</h5>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="col-lg-4">
+    <div class="card card-image-price">
+      <div class="row">
+      <div class="card-image col-lg-5">
+        <img class="pricing-image" src="https://static-uc.olist.ng/upload/20191204/et3rbmvb75t.jpg" alt=""></h3>
+      </div>
+      <div class="card-body col-lg-7">
+        <p>Praesent rhoncus aliquam arcu</p>
+        <h5>#xx,xxx</h5>
+      </div>
+
+    </div>
+
+    </div>
+  </div>
+  </div>
+</div>
+
+          <!-- kid wears  -->
+          <div class="row-card">
+            <div class="card-heading">
+              <h4 class="card-title">Kids wears</h4>
+              <a href=""><p class="card-more">See all</p></a>
+            </div>
+  <div class="row">
+               
+    <div class="col-lg-4">
+    <div class="card card-image-price">
+      <div class="row">
+        <div class="card-image col-lg-5">
+          <img class="pricing-image" src="https://www.pinkblueindia.com/blog/wp-content/uploads/2017/05/blue-baby-boy-3-piece-formal-waistcoat-suit.jpg" alt=""></h3>
+        </div>
+        <div class="card-body col-lg-7">
+          <p>Praesent rhoncus aliquam arcu</p>
+          <h5>#xx,xxx</h5>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="col-lg-4">
+    <div class="card card-image-price">
+      <div class="row">
+        <div class="card-image col-lg-5">
+          <img class="pricing-image" src="https://ae01.alicdn.com/kf/HTB1Kk1tdKuSBuNjSsplq6ze8pXaX/2018-Summer-New-Baby-Boy-Clothes-Cotton-Material-Fashion-Design-Boys-Clothing-Set.jpg_Q90.jpg_.webp" alt=""></h3>
+        </div>
+        <div class="card-body col-lg-7">
+          <p>Praesent rhoncus aliquam arcu</p>
+          <h5>#xx,xxx</h5>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="col-lg-4">
+    <div class="card card-image-price">
+      <div class="row">
+      <div class="card-image col-lg-5">
+        <img class="pricing-image" src="https://ae01.alicdn.com/kf/HTB1bWssw7SWBuNjSszdq6zeSpXap/Toddler-Boys-Clothing-Set-Summer-Baby-Suit-Shorts-Shirt-1-2-3-4-Year-Children-Kid.jpg_Q90.jpg_.webp" alt=""></h3>
+      </div>
+      <div class="card-body col-lg-7">
+        <p>Praesent rhoncus aliquam arcu</p>
+        <h5>#xx,xxx</h5>
+      </div>
+
+    </div>
+
+    </div>
+  </div>
+  </div>
+</div>
+
+          <!-- footwears  -->
+          <div class="row-card">
+
+            <div class="card-heading">
+              <h4 class="card-title">Foot wears</h4>
+              <a href=""><p class="card-more">See all</p></a>
+            </div>
+          <div class="row">
+               
+            <div class="col-lg-4">
+            <div class="card card-image-price">
+              <div class="row">
+                <div class="card-image col-lg-5">
+                  <img class="pricing-image" src="https://www.cartrollers.com/wp-content/uploads/2022/08/FASHION-MEN-ESPADRILLES-LOAFER-SHOES.jpeg" alt=""></h3>
+                </div>
+                <div class="card-body col-lg-7">
+                  <p>espadrilles loafers shoes</p>
+                  <h5>#43,000.00</h5>
+                </div>
+  
+              </div>
+  
+            </div>
+          </div>
+  
+          <div class="col-lg-4">
+            <div class="card card-image-price">
+              <div class="row">
+                <div class="card-image col-lg-5">
+                  <img class="pricing-image" src="data:image/jpeg;base64,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" alt=""></h3>
+                </div>
+                <div class="card-body col-lg-7">
+                  <p>cooperate loafers shoes</p>
+                  <h5>#35,000.00</h5>
+                </div>
+  
+              </div>
+  
+            </div>
+          </div>
+  
+          <div class="col-lg-4">
+            <div class="card card-image-price">
+              <div class="row">
+              <div class="card-image col-lg-5">
+                <img class="pricing-image" src="foot wears/Suede-Loafers-Shoe.jpg" alt=""></h3>
+              </div>
+              <div class="card-body col-lg-7">
+                <p>Seude loafers shoe</p>
+                <h5>#25,000.00</h5>
+              </div>
+
+            </div>
+  
+            </div>
+          </div>
+          </div>
+        </div>
+
+       
+        
+      </section>
+
+      <section id="testimonials">
+
+
+        <div id="testimonials-control" class="carousel slide" data-bs-ride="carousel">
+    
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#testimonials-control" data-bs-slide-to="0" class="active carousel-button" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#testimonials-control" data-bs-slide-to="1" class="carousel-button" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#testimonials-control" data-bs-slide-to="2" class="carousel-button" aria-label="Slide 3"></button>
+          </div>
+    
+          <div class="carousel-inner">
+    
+            <div class="carousel-item active">
+              <h2>I no longer have to leave the comfort of my home going to a brick and mortar stores to shop for clothes anymore. i have found the best online clothing store on DeeCruise.</h2>
+              <img class="testimonial-image" src="images/sammy.jpg"  alt="sammy-profile">
+              <em>Sammy, Lagos</em>
+            </div>
+    
+            <div class="carousel-item">
+              <h2 class="testimonial-text">i used to have trust issues about online shopping stores. but with DeeCruise, the clothings are as durable and lovely as they appear. Thank you DeeCruise.</h2>
+              <img class="testimonial-image" src="images/precious.jpg" alt="precious-profile">
+              <em>Precious, Ikorodu</em>
+            </div>
+
+            <div class="carousel-item">
+              <h2 class="testimonial-text">For me, i dont base in lagos where their head quarters is located. i order from ondo state and yet, the inter-state delivery is really affordable. DeeCruise is the best.</h2>
+              <img class="testimonial-image" src="images/samuel.jpg" alt="samuel-profile">
+              <em>Samuel, Ondo</em>
+            </div>
+      
+          </div>
+          <button class="carousel-control-prev btn-dark" type="button" data-bs-target="#testimonials-control" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#testimonials-control" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+    
+    
+        
+    
+        
+    
+      </section>
+
+
+      <section id="cta">
+        <div class="row signup-subscribe">
+          
+          
+
+          
+            <div class="col-lg-7 signup">
+              <h2 id="sign-sub">Sign-up and Subscribe </h2>
+
+              <h5>Sign up and subscribe with an account to qualify for our amazing deals and discounts.</h5>
+            <form class="row form-group" action="#">
+              <div class="field-text col-lg-6">
+              <label for="fname">First name:</label>
+              <input class="form-control" type="text" name="fname" placeholder="John">
+            </div>
+            <div class="field-text col-lg-6">
+              <label for="lname">Last name:</label>
+              <input class="form-control" type="text" name="lname" placeholder="doe">
+            </div>
+            <div class="field-text col-lg-6">
+              <label for="email">Email:</label>
+              <input class="form-control" type="email" name="email" placeholder="@gmail.com">
+
+            </div>
+            <div class="signUp-btn">
+              <button class="btn btn-lg btn-dark" type="submit">Sign up</button>
+            </div>
+
+
+
+            </form>
+            <div class="sign-social">
+              <h5>Sign up with:</h5>
+              <div class="icons-signup">
+                <button class="btn btn-outline-primary"><i class="fab fa-facebook-f signup-icon" aria-hidden="true"></i></button>
+                <button class="btn btn-outline-danger"><i class="fab fa-google signup-icon" aria-hidden="true"></i></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5 sign-up-image">
+            <img class="w-100" src="shirts/blue-arm-folded-shirt.jpg" height="" alt="image">
+
+          </div>
+
+          
+
+
+
+        </div>
+
+      </section>
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>

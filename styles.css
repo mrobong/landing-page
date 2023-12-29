@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#title{
+    background: linear-gradient(145deg, #E3F2FD 50%, #000 ) ;
+    
+    
+
+}
+.title-text{
+    font-family: 'Montserrat', serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: rgb(70, 70, 70);
+}
+.sub-title, p{
+    font-size: 1.1rem;
+    font-family: 'Rubik', sans-serif;
+    line-height: 2.0;
+ }
+.fa-shopping-bag{
+    color: #D32F2F;
+    font-size: 3rem;
+    margin-top: 78px;
+}
+.container-fluid{
+    padding: 0 5% 15% 5%;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+}
+.nav-item{
+    padding: 0 18px;    
+ }
+ .nav-link{
+    font-size: 2rem;
+    font-weight:400;
+    color: #000;
+    font-family: 'Ms Madi', cursive;
+ }
+
+ .title-text-carousel{
+    margin-top: 5rem;
+ }
+ 
+ .checked{
+    color: orange;
+ }
+ 
+ .ratings{
+    margin-top: 20%;
+ }
+ .rating-text{
+    font-family: 'Rubik', sans-serif;
+    color: gray;
+ }
+ 
+ .shop-button{
+    margin: 5% 2% 0 0;
+ }
+
+ /* features section  */
+ #features{
+    background-color: #FEFEFE;
+    text-align: center;
+    padding: 5% 5%;
+ }
+ .card li{
+   line-height: 1.5;
+   padding: 5px 0;
+   font-size: 1.1rem;
+   font-family: 'rubik', serif;
+   list-style: none;
+ }
+ .feature-items{
+   padding: 2%;
+ }
+ 
+ /* adverts section  */
+ #adverts{
+    padding: 5% 10%;
+    background: linear-gradient(120deg, #E3F2FD 70%, #000 ) ;
+
+
+ }
+
+ .ads-number{
+    font-size: 5rem;
+    font-family: 'Montserrat';
+    color: rgb(170, 170, 170);
+    
+ }
+ .ads-image{
+    border-radius: 100%;
+    width: 60%;  
+ }
+ .ads-image-right{
+   padding-left: 15%;
+   padding-top: 7%;
+ }
+ .ads-image-left{
+   padding-top: 7%;
+
+ }
+ .ads-row{
+    padding-top: 10%;
+ }
+
+ /* pricing section  */
+ .pricing-image{
+   height: 130px;
+   width: 140PX;
+ }
+ .card-image{
+   margin-top: 7px;
+ }
+ .card-image-price{
+   text-align: center;
+   
+   
+ }
+
+ .col-lg-4{
+   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+   overflow: hidden;
+   transition: all 0.4s ease 0s;
+
+ }
+
+
+ .col-lg-4:hover{
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+   cursor: pointer;
+   
+ }
+ #pricing{
+   padding: 3% 3%;
+
+ }
+ .row-card{
+   padding-top: 2%;
+ }
+ .card-heading{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 15px;
+ }
+ 
+ .card h3{
+   padding: 2% 0;
+ }
+ .card-heading a{
+   text-decoration: none;
+   color: rgb(70, 70, 70);
+   font-family: 'rubik', serif;
+ }
+
+/* testimonials section  */
+#testimonials{
+   text-align: center;
+   background-color: #8a8a8a;
+   color: rgb(255, 255, 255);
+
+}
+.carousel-item{
+   padding: 5% 15%;
+   
+   
+}
+.testimonial-image{
+   width: 10%;
+   border-radius: 100%;
+   margin: 20px;
+}
+.carousel-item h2{
+   font-size: 2rem;
+   font-family: 'Montserrat', serif;
+   line-height: 1.5;
+}
+/* cta section  */
+#cta{
+   /* text-align: center; */
+   padding: 5% 20%;
+   background-color: rgb(251, 255, 255);
+   
+}
+.signUp-btn{
+   padding: 3% 0 2% 2%;
+   text-align: left;
+}
+#sign-sub{
+   text-align: center;
+   padding-bottom: 5%;
+}
+.signup-subscribe{
+   border: solid 1px grey;
+   border-radius: 1rem;
+   padding: 3%;
+   box-shadow: 3px 3px grey;
+   background-color: #E3F2FD;
+   
+}
+.field-text{
+   margin-top: 2%;
+}
+.field-text label{
+   font-size: 1.2rem;
+   font-weight: 500;
+}
+.signup-icon{
+   font-size: 1.5rem;
+}
+.sign-social{
+   text-align: center;
+}
